@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Send mail
-        uses: betterfor/action-sned-mail@main
+        uses: dawidd6/action-send-mail@v3
         with:
           # 必需，邮件服务器地址
           server_address: smtp.qq.com
